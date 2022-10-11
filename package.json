@@ -1,0 +1,20 @@
+{
+  "name": "video-cut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/node": "^18.8.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^1.4.1",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
